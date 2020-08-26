@@ -7,7 +7,7 @@ Jokes app from spring course
 This App is part of a course assignement from spring beginner to guru course.
 
 ## Build State
-[![Build Status](https://travis-ci.com/josousa82/pet-clinic-tutorial.svg?branch=master)](https://travis-ci.com/josousa82/pet-clinic-tutorial)  
+[![Build Status](https://travis-ci.com/josousa82/Jokes-App.svg?branch=master)](https://travis-ci.com/josousa82/Jokes-App)  
 
 
 ### Prerequisites
