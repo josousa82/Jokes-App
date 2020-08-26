@@ -11,9 +11,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class ServiceJokesImpl implements ServiceJokes {
 
-    ChuckNorrisQuotes chuckNorrisQuotes;
-
-
     @Override
     public String getRandomJoke() {
         return new ChuckNorrisQuotes().getRandomQuote();
