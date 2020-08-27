@@ -82,5 +82,5 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/josousa82/Jokes-App/LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/josousa82/Jokes-App/LICENSE) file for details
 
