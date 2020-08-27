@@ -24,7 +24,7 @@ class TestService extends Specification{
         chuckNorrisQuotes.getRandomQuote() >> joke
 
         when:
-        serviceJokes.getRandomJoke()
+        serviceJokes.getRandomJoke() >> joke
 
         then:
         serviceJokes.getRandomJoke() == joke
