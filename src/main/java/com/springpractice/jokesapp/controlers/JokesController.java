@@ -2,6 +2,7 @@ package com.springpractice.jokesapp.controlers;
 
 import com.springpractice.jokesapp.services.ServiceJokesImpl;
 import com.springpractice.jokesapp.services.interfaces.ServiceJokes;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,8 +14,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class JokesController {
 
-    ServiceJokes serviceJokes;
+    private final ServiceJokes serviceJokes;
 
+    @Autowired
     public JokesController(ServiceJokesImpl serviceJokes) {
         this.serviceJokes = serviceJokes;
     }

@@ -174,5 +174,5 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
-src/main/resources/static/
-src/main/resources/templates/
+#src/main/resources/static/
+#src/main/resources/templates/
