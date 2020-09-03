@@ -13,8 +13,8 @@ public class ServiceJokesImpl implements ServiceJokes {
 
     private final ChuckNorrisQuotes chuckNorrisQuotes;
 
-    public ServiceJokesImpl() {
-        chuckNorrisQuotes = new ChuckNorrisQuotes();
+    public ServiceJokesImpl(ChuckNorrisQuotes chuckNorrisQuotes) {
+        this.chuckNorrisQuotes = chuckNorrisQuotes;
     }
 
     @Override
